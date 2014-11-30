@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A9CD5B3EAA1C58BA121083A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B275C3E79FBB2C4B100660F1 /* libPods.a */; };
 		6DC52EB81A2B04AD00184581 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC52EB71A2B04AD00184581 /* AppDelegate.swift */; };
 		6DC52EBA1A2B04AD00184581 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC52EB91A2B04AD00184581 /* ViewController.swift */; };
 		6DC52EBD1A2B04AD00184581 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DC52EBB1A2B04AD00184581 /* Main.storyboard */; };
 		6DC52EBF1A2B04AD00184581 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DC52EBE1A2B04AD00184581 /* Images.xcassets */; };
 		6DC52EC21A2B04AD00184581 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DC52EC01A2B04AD00184581 /* LaunchScreen.xib */; };
 		6DC52ECE1A2B04AD00184581 /* ADArrowButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC52ECD1A2B04AD00184581 /* ADArrowButtonTests.swift */; };
+		6DC52ED91A2B057300184581 /* ADArrowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC52ED81A2B057300184581 /* ADArrowButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		025D2977C561DB00FA6CE56A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		6DC52EB21A2B04AD00184581 /* ADArrowButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADArrowButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DC52EB61A2B04AD00184581 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DC52EB71A2B04AD00184581 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +39,10 @@
 		6DC52EC71A2B04AD00184581 /* ADArrowButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADArrowButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DC52ECC1A2B04AD00184581 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DC52ECD1A2B04AD00184581 /* ADArrowButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADArrowButtonTests.swift; sourceTree = "<group>"; };
+		6DC52ED81A2B057300184581 /* ADArrowButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADArrowButton.swift; sourceTree = "<group>"; };
+		6DC52EDA1A2B089F00184581 /* ADArrowButton-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ADArrowButton-Bridging-Header.h"; sourceTree = "<group>"; };
+		B275C3E79FBB2C4B100660F1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E279169B285CB73D6AF54A2F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A9CD5B3EAA1C58BA121083A /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +64,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B4B5A9654E4DB3023E624A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B275C3E79FBB2C4B100660F1 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6DC52EA91A2B04AD00184581 = {
 			isa = PBXGroup;
 			children = (
+				6DC52ED71A2B051D00184581 /* Source */,
 				6DC52EB41A2B04AD00184581 /* ADArrowButton */,
 				6DC52ECA1A2B04AD00184581 /* ADArrowButtonTests */,
 				6DC52EB31A2B04AD00184581 /* Products */,
+				9B8D00EE8E8B5F126B3D2FA1 /* Pods */,
+				2B4B5A9654E4DB3023E624A7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +102,7 @@
 				6DC52EBE1A2B04AD00184581 /* Images.xcassets */,
 				6DC52EC01A2B04AD00184581 /* LaunchScreen.xib */,
 				6DC52EB51A2B04AD00184581 /* Supporting Files */,
+				6DC52EDA1A2B089F00184581 /* ADArrowButton-Bridging-Header.h */,
 			);
 			path = ADArrowButton;
 			sourceTree = "<group>";
@@ -112,6 +132,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		6DC52ED71A2B051D00184581 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				6DC52ED81A2B057300184581 /* ADArrowButton.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		9B8D00EE8E8B5F126B3D2FA1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				025D2977C561DB00FA6CE56A /* Pods.debug.xcconfig */,
+				E279169B285CB73D6AF54A2F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +156,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6DC52ED11A2B04AD00184581 /* Build configuration list for PBXNativeTarget "ADArrowButton" */;
 			buildPhases = (
+				BC4750EF3B6E7393440A0E82 /* Check Pods Manifest.lock */,
 				6DC52EAE1A2B04AD00184581 /* Sources */,
 				6DC52EAF1A2B04AD00184581 /* Frameworks */,
 				6DC52EB01A2B04AD00184581 /* Resources */,
+				10730FD8C2E4476F9290D75C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +246,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		10730FD8C2E4476F9290D75C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC4750EF3B6E7393440A0E82 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6DC52EAE1A2B04AD00184581 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -214,6 +286,7 @@
 			files = (
 				6DC52EBA1A2B04AD00184581 /* ViewController.swift in Sources */,
 				6DC52EB81A2B04AD00184581 /* AppDelegate.swift in Sources */,
+				6DC52ED91A2B057300184581 /* ADArrowButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,21 +409,28 @@
 		};
 		6DC52ED21A2B04AD00184581 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 025D2977C561DB00FA6CE56A /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ADArrowButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ADArrowButton/ADArrowButton-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		6DC52ED31A2B04AD00184581 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E279169B285CB73D6AF54A2F /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ADArrowButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ADArrowButton/ADArrowButton-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -407,6 +487,7 @@
 				6DC52ED31A2B04AD00184581 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6DC52ED41A2B04AD00184581 /* Build configuration list for PBXNativeTarget "ADArrowButtonTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +496,7 @@
 				6DC52ED61A2B04AD00184581 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
