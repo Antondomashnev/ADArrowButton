@@ -35,3 +35,7 @@ To animatedly enable or disable it just call this method
     ...
     self.arrowButton.setEnabled(!self.arrowButton.enabled, animated: true)
   ``` 
+
+## License
+
+This code is distributed under the terms and conditions of the MIT license.
