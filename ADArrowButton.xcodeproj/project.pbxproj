@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6DC52EB81A2B04AD00184581 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC52EB71A2B04AD00184581 /* AppDelegate.swift */; };
+		6DC52EBA1A2B04AD00184581 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC52EB91A2B04AD00184581 /* ViewController.swift */; };
+		6DC52EBD1A2B04AD00184581 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DC52EBB1A2B04AD00184581 /* Main.storyboard */; };
+		6DC52EBF1A2B04AD00184581 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DC52EBE1A2B04AD00184581 /* Images.xcassets */; };
+		6DC52EC21A2B04AD00184581 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DC52EC01A2B04AD00184581 /* LaunchScreen.xib */; };
+		6DC52ECE1A2B04AD00184581 /* ADArrowButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC52ECD1A2B04AD00184581 /* ADArrowButtonTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6DC52EC81A2B04AD00184581 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DC52EAA1A2B04AD00184581 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DC52EB11A2B04AD00184581;
+			remoteInfo = ADArrowButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6DC52EB21A2B04AD00184581 /* ADArrowButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADArrowButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DC52EB61A2B04AD00184581 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DC52EB71A2B04AD00184581 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6DC52EB91A2B04AD00184581 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6DC52EBC1A2B04AD00184581 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6DC52EBE1A2B04AD00184581 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6DC52EC11A2B04AD00184581 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6DC52EC71A2B04AD00184581 /* ADArrowButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADArrowButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DC52ECC1A2B04AD00184581 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DC52ECD1A2B04AD00184581 /* ADArrowButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADArrowButtonTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DC52EAF1A2B04AD00184581 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DC52EC41A2B04AD00184581 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6DC52EA91A2B04AD00184581 = {
+			isa = PBXGroup;
+			children = (
+				6DC52EB41A2B04AD00184581 /* ADArrowButton */,
+				6DC52ECA1A2B04AD00184581 /* ADArrowButtonTests */,
+				6DC52EB31A2B04AD00184581 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6DC52EB31A2B04AD00184581 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DC52EB21A2B04AD00184581 /* ADArrowButton.app */,
+				6DC52EC71A2B04AD00184581 /* ADArrowButtonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DC52EB41A2B04AD00184581 /* ADArrowButton */ = {
+			isa = PBXGroup;
+			children = (
+				6DC52EB71A2B04AD00184581 /* AppDelegate.swift */,
+				6DC52EB91A2B04AD00184581 /* ViewController.swift */,
+				6DC52EBB1A2B04AD00184581 /* Main.storyboard */,
+				6DC52EBE1A2B04AD00184581 /* Images.xcassets */,
+				6DC52EC01A2B04AD00184581 /* LaunchScreen.xib */,
+				6DC52EB51A2B04AD00184581 /* Supporting Files */,
+			);
+			path = ADArrowButton;
+			sourceTree = "<group>";
+		};
+		6DC52EB51A2B04AD00184581 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6DC52EB61A2B04AD00184581 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6DC52ECA1A2B04AD00184581 /* ADArrowButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				6DC52ECD1A2B04AD00184581 /* ADArrowButtonTests.swift */,
+				6DC52ECB1A2B04AD00184581 /* Supporting Files */,
+			);
+			path = ADArrowButtonTests;
+			sourceTree = "<group>";
+		};
+		6DC52ECB1A2B04AD00184581 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6DC52ECC1A2B04AD00184581 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DC52EB11A2B04AD00184581 /* ADArrowButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DC52ED11A2B04AD00184581 /* Build configuration list for PBXNativeTarget "ADArrowButton" */;
+			buildPhases = (
+				6DC52EAE1A2B04AD00184581 /* Sources */,
+				6DC52EAF1A2B04AD00184581 /* Frameworks */,
+				6DC52EB01A2B04AD00184581 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ADArrowButton;
+			productName = ADArrowButton;
+			productReference = 6DC52EB21A2B04AD00184581 /* ADArrowButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6DC52EC61A2B04AD00184581 /* ADArrowButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DC52ED41A2B04AD00184581 /* Build configuration list for PBXNativeTarget "ADArrowButtonTests" */;
+			buildPhases = (
+				6DC52EC31A2B04AD00184581 /* Sources */,
+				6DC52EC41A2B04AD00184581 /* Frameworks */,
+				6DC52EC51A2B04AD00184581 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DC52EC91A2B04AD00184581 /* PBXTargetDependency */,
+			);
+			name = ADArrowButtonTests;
+			productName = ADArrowButtonTests;
+			productReference = 6DC52EC71A2B04AD00184581 /* ADArrowButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DC52EAA1A2B04AD00184581 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Anton Domashnev";
+				TargetAttributes = {
+					6DC52EB11A2B04AD00184581 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					6DC52EC61A2B04AD00184581 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 6DC52EB11A2B04AD00184581;
+					};
+				};
+			};
+			buildConfigurationList = 6DC52EAD1A2B04AD00184581 /* Build configuration list for PBXProject "ADArrowButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DC52EA91A2B04AD00184581;
+			productRefGroup = 6DC52EB31A2B04AD00184581 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DC52EB11A2B04AD00184581 /* ADArrowButton */,
+				6DC52EC61A2B04AD00184581 /* ADArrowButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DC52EB01A2B04AD00184581 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DC52EBD1A2B04AD00184581 /* Main.storyboard in Resources */,
+				6DC52EC21A2B04AD00184581 /* LaunchScreen.xib in Resources */,
+				6DC52EBF1A2B04AD00184581 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DC52EC51A2B04AD00184581 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DC52EAE1A2B04AD00184581 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DC52EBA1A2B04AD00184581 /* ViewController.swift in Sources */,
+				6DC52EB81A2B04AD00184581 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DC52EC31A2B04AD00184581 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DC52ECE1A2B04AD00184581 /* ADArrowButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6DC52EC91A2B04AD00184581 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DC52EB11A2B04AD00184581 /* ADArrowButton */;
+			targetProxy = 6DC52EC81A2B04AD00184581 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6DC52EBB1A2B04AD00184581 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DC52EBC1A2B04AD00184581 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6DC52EC01A2B04AD00184581 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DC52EC11A2B04AD00184581 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6DC52ECF1A2B04AD00184581 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6DC52ED01A2B04AD00184581 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DC52ED21A2B04AD00184581 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ADArrowButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6DC52ED31A2B04AD00184581 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ADArrowButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6DC52ED51A2B04AD00184581 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ADArrowButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADArrowButton.app/ADArrowButton";
+			};
+			name = Debug;
+		};
+		6DC52ED61A2B04AD00184581 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ADArrowButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADArrowButton.app/ADArrowButton";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DC52EAD1A2B04AD00184581 /* Build configuration list for PBXProject "ADArrowButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DC52ECF1A2B04AD00184581 /* Debug */,
+				6DC52ED01A2B04AD00184581 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DC52ED11A2B04AD00184581 /* Build configuration list for PBXNativeTarget "ADArrowButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DC52ED21A2B04AD00184581 /* Debug */,
+				6DC52ED31A2B04AD00184581 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6DC52ED41A2B04AD00184581 /* Build configuration list for PBXNativeTarget "ADArrowButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DC52ED51A2B04AD00184581 /* Debug */,
+				6DC52ED61A2B04AD00184581 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DC52EAA1A2B04AD00184581 /* Project object */;
+}
