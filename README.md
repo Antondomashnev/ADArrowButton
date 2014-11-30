@@ -11,4 +11,17 @@ Requirements
 ============
 
 - iOS 7.0+
-- Xcode 6.1
+- [Facebook POP](https://github.com/facebook/pop) - smooth animation provider =)
+
+------------------------------------
+Adding ADArrowButton to your project
+====================================
+
+1. Add the ADArrowButton.swift file to your project.
+2. Install [Facebook POP](https://github.com/facebook/pop)
+
+-----
+Usage
+=====
+
+
