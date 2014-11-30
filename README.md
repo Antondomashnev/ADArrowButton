@@ -16,7 +16,7 @@ ADArrowButton is a Swift UIControl component like an "arrow flat style" UIButton
 
 ## Usage
 
-ADArrowButton is ```@IBDesignable``` and has ```@@IBInspectable``` below:
+ADArrowButton is ```@IBDesignable``` and has ```@IBInspectable``` properties listed below:
 - ```arrowDirection``` - it could be Left, Right, Top, Bottom arrow
 - ```lineColor```
 - ```highlightedBackgroundColor```
