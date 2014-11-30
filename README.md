@@ -7,7 +7,7 @@ ADArrowButton is a Swift UIControl component like an "arrow flat style" UIButton
 ## Requirements
 
 - iOS 7.0+
-- [Facebook POP](https://github.com/facebook/pop) - smooth animation provider =)
+- [Facebook POP](https://github.com/facebook/pop) - our smooth animation provider =)
 
 ## Adding ADArrowButton to your project
 
@@ -31,9 +31,9 @@ ADArrowButton is ```@IBDesignable``` and has ```@IBInspectable``` properties lis
 
 To animatedly enable or disable it just call this method
 ``` swift
-    @IBOutlet var arrowButton: ADArrowButton!
-    ...
-    self.arrowButton.setEnabled(!self.arrowButton.enabled, animated: true)
+@IBOutlet var arrowButton: ADArrowButton!
+...
+self.arrowButton.setEnabled(!self.arrowButton.enabled, animated: true)
   ``` 
 
 ## License
