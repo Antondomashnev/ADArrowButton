@@ -29,3 +29,9 @@ ADArrowButton is ```@IBDesignable``` and has ```@IBInspectable``` properties lis
 - ```insetBottom```
 - ```enabled```
 
+To animatedly enable or disable it just call this method
+``` swift
+    @IBOutlet var arrowButton: ADArrowButton!
+    ...
+    self.arrowButton.setEnabled(!self.arrowButton.enabled, animated: true)
+  ``` 
